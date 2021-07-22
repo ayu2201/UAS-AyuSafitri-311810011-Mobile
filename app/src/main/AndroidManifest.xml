@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="activity.project.qrcodeayusafitri">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.QRCodeAyuSafitri">
+        <activity android:name="activity.project.qrcodeayusafitri.ScanActivity" ></activity>
+        <activity android:name="activity.project.qrcodeayusafitri.LoginActivity" />
+        <activity android:name="activity.project.qrcodeayusafitri.getStarted" />
+        <activity android:name="activity.project.qrcodeayusafitri.DaftarActivity" />
+        <activity android:name="activity.project.qrcodeayusafitri.DataActivity" />
+        <activity android:name="activity.project.qrcodeayusafitri.MainActivity" />
+        <activity
+            android:name="activity.project.qrcodeayusafitri.SplashActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
